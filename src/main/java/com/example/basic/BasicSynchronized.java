@@ -2,11 +2,11 @@ package com.example.basic;
 
 import java.util.stream.IntStream;
 
-public class BasicSynchronizedUsage {
+public class BasicSynchronized {
     private int count;
 
     public static void main(String[] args) {
-        BasicSynchronizedUsage app = new BasicSynchronizedUsage();
+        BasicSynchronized app = new BasicSynchronized();
         app.doTask();
     }
 

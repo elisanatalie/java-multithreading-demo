@@ -23,7 +23,7 @@ class LoopingThread extends Thread {
     }
 }
 
-public class BasicVolatileUsage {
+public class BasicVolatile {
     public static void main(String[] args) {
         LoopingThread loopingThread = new LoopingThread();
         loopingThread.start();
